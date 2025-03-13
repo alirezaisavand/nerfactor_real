@@ -18,14 +18,22 @@ from os.path import join, basename
 import numpy as np
 import tensorflow as tf
 
-from third_party.xiuminglib import xiuminglib as xm
-from brdf.renderer import SphereRenderer
-from brdf.merl.merl import MERL
-from nerfactor.networks import mlp
-from nerfactor.networks.embedder import Embedder
-from nerfactor.networks.layers import LatentCode
-from nerfactor.util import logging as logutil, io as ioutil
-from nerfactor.models.base import Model as BaseModel
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
+from nerfactor.brdf.renderer import SphereRenderer
+from nerfactor.brdf.merl.merl import MERL
+from nerfactor.nerfactor.networks import mlp
+from nerfactor.nerfactor.networks.embedder import Embedder
+from nerfactor.nerfactor.networks.layers import LatentCode
+from nerfactor.nerfactor.util import logging as logutil, io as ioutil
+from nerfactor.nerfactor.models.base import Model as BaseModel
+# from third_party.xiuminglib import xiuminglib as xm
+# from brdf.renderer import SphereRenderer
+# from brdf.merl.merl import MERL
+# from nerfactor.networks import mlp
+# from nerfactor.networks.embedder import Embedder
+# from nerfactor.networks.layers import LatentCode
+# from nerfactor.util import logging as logutil, io as ioutil
+# from nerfactor.models.base import Model as BaseModel
 
 
 logger = logutil.Logger(loggee="models/brdf")

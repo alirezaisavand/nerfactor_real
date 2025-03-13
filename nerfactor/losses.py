@@ -14,7 +14,8 @@
 
 import tensorflow as tf
 
-from util import img as imgutil
+from nerfactor.nerfactor.util import img as imgutil
+# from nerfactor.util import img as imgutil
 
 
 class L1():

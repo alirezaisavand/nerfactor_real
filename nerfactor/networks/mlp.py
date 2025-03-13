@@ -14,8 +14,10 @@
 
 import tensorflow as tf
 
-from util import logging as logutil
-from .seq import Network as BaseNetwork
+from nerfactor.nerfactor.util import logging as logutil
+from nerfactor.nerfactor.networks.seq import Network as BaseNetwork
+# from nerfactor.util import logging as logutil
+# from nerfactor.networks.seq import Network as BaseNetwork
 
 
 logger = logutil.Logger(loggee="networks/mlp")

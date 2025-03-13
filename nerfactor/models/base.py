@@ -14,9 +14,12 @@
 
 import tensorflow as tf
 
-import losses
-from networks import base as basenet
-from util import logging as logutil
+import nerfactor.nerfactor.losses as losses
+from nerfactor.nerfactor.networks import base as basenet
+from nerfactor.nerfactor.util import logging as logutil
+# import nerfactor.losses as losses
+# from nerfactor.networks import base as basenet
+# from nerfactor.util import logging as logutil
 
 
 logger = logutil.Logger(loggee="models/base")

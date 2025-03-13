@@ -20,7 +20,8 @@ from scipy.spatial import ConvexHull, Delaunay
 from scipy.spatial.qhull import QhullError
 import tensorflow as tf
 
-from third_party.xiuminglib import xiuminglib as xm
+from nerfactor.third_party.xiuminglib import xiuminglib as xm
+# from third_party.xiuminglib import xiuminglib as xm
 from . import math as mathutil
 
 

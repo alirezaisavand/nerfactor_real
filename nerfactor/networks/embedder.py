@@ -14,7 +14,8 @@
 
 import tensorflow as tf
 
-from util import logging as logutil
+from nerfactor.nerfactor.util import logging as logutil
+# from nerfactor.util import logging as logutil
 
 
 logger = logutil.Logger(loggee="networks/embedder")

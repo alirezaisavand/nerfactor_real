@@ -15,7 +15,8 @@
 import tensorflow as tf
 from tensorflow import keras
 
-from util import logging as logutil, geom as geomutil, math as mathutil
+from nerfactor.nerfactor.util import logging as logutil, geom as geomutil, math as mathutil
+# from nerfactor.util import logging as logutil, geom as geomutil, math as mathutil
 
 
 logger = logutil.Logger(loggee="networks/layers")
